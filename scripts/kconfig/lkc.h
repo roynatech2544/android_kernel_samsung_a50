@@ -32,6 +32,7 @@ extern "C" {
 #define LOCALEDIR "/usr/share/locale"
 
 #define _(text) gettext(text)
+#define __(text) "%s", _(text)
 #define N_(text) (text)
 
 #ifndef CONFIG_
