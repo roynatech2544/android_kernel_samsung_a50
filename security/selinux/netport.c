@@ -238,7 +238,6 @@ static __init int sel_netport_init(void)
 {
 	int iter;
 
-
 	if (!selinux_enabled)
 		return 0;
 
